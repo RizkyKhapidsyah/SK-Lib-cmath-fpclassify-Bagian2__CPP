@@ -35,12 +35,12 @@ void fpclassification(double x) {
 int main() {
 	// contoh 1
 	double a = 1.0 / 2.0;
-	cout << "For 1.0/0.0: ";
+	cout << "For 1.0/2.0: ";
 	fpclassification(a);
 
 	// contoh 2
 	double b = 0.0 / 1.0;
-	cout << "For 0.0/0.0: ";
+	cout << "For 0.0/1.0: ";
 	fpclassification(b);
 
 	// contoh 3
